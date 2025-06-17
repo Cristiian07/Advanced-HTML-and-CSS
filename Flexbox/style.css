@@ -1,0 +1,27 @@
+.container {
+    border: 1px solid black;
+    height: 90vh;
+    background-color: rgb(236, 178, 178);
+    /**/
+    display: flex;
+    /* specifica axa principala */
+    flex-direction: row;
+
+    /* aliniaza itemel pe axa principala */
+    justify-content: space-between;
+
+    /* aliniaza itemel pe axa secundara */
+    align-items: center;
+
+    /* in cazul in care itemel nu incap in container pe axa principala */
+    flex-wrap: wrap-reverse;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 88, 69);
+    margin: 2px;
+    color: white;
+    font-size: 100px;
+}
