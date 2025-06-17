@@ -1,0 +1,27 @@
+div {
+    background-color: rgb(187, 211, 232);
+}
+
+div::before {
+    content: 'Before content';
+    color: orange;
+}
+
+.check::after {
+    content: '✅';
+    color: orange;
+}
+
+p::selection {
+    background-color: black;
+    color: violet;
+}
+
+.firstLetter::first-letter {
+    color: red;
+    font-size: 60px;
+}
+
+textarea::first-line {
+    color: red;
+}

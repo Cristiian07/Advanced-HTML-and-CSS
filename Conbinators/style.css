@@ -1,0 +1,16 @@
+/* .parent p {
+    color: blue;
+} */
+
+.parent p {
+    color: red;
+}
+
+/* .sibling + p {
+    color: green;
+} */
+
+/* .sibling ~ p {
+    color: green;
+} */
+

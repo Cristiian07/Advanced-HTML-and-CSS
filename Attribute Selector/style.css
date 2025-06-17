@@ -1,0 +1,34 @@
+/* Atributul exista */
+/* p[class] {
+    color: red;
+} */
+
+/* Atributul are valoarea 'first'*/
+/* p[class="first"] {
+    color: blue;
+} */
+
+/* Atributul are una dinre valori 'aaa' (separate dupa ' ')*/
+/* p[class~="aaa"] {
+    color: yellow;
+} */
+
+/* Atributul are una dinre valori 'aaa' (separate dupa '-')*/
+/* p[class|="first"] {
+    color: cyan;
+} */
+
+/* Atributul incepe cu 'fir'*/
+/* p[class^="fir"] {
+    color: purple;
+} */
+
+/* Atributul se termina cu 't'*/
+/* p[class$="t"] {
+    color: purple;
+} */
+
+/* Atributul contine substringul 'st'*/
+/* p[class*="st"] {
+    color:beige;
+} */
